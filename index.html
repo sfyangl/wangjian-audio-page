@@ -110,8 +110,16 @@ async function loadLatest() {
     const data = await r.json();
     if (data.status !== "ok" || !Array.isArray(data.items) || !data.items.length) throw new Error("无节目数据");
     const items = data.items
-      .filter(x => x.link && x.link.includes("youtube.com/watch"))
-      .map(x => ({title:x.title, url:x.link, pubDate:x.pubDate}));
+      .filter(x =>
+        x.link &&
+        x.link.includes("youtube.com/watch") &&
+        x.title.includes("新闻直播")
+      )
+      .map(x => ({
+        title:x.title,
+        url:x.link,
+        pubDate:x.pubDate
+      }));
     if (!items.length) throw new Error("没有可用视频");
     render(items, "live");
   } catch(e) {
