@@ -33,131 +33,68 @@ button,a.btn{border:0;border-radius:13px;padding:13px 10px;font-size:15px;font-w
 .ok{color:#237b35}
 @media(max-width:440px){.actions{grid-template-columns:1fr}}
 @media(prefers-color-scheme:dark){
- body{background:#111;color:#fff} .toolbar{background:rgba(17,17,17,.94)} .sub,.state{color:#aaa}
- .card{background:#1c1c1e} .secondary{background:#333;color:#fff}
- .choice input:checked + .dot{border-color:#fff} .choice input:checked + .dot:after{background:#fff}
+ body{background:#111;color:#fff}.toolbar{background:rgba(17,17,17,.94)}.sub,.state{color:#aaa}
+ .card{background:#1c1c1e}.secondary{background:#333;color:#fff}
+ .choice input:checked + .dot{border-color:#fff}.choice input:checked + .dot:after{background:#fff}
  .note{background:#352d16;color:#f0d989}
 }
 </style>
 </head>
 <body>
 <main>
-<h1>王剑每日观察｜自动更新下载页</h1>
-<p class="sub">页面打开后会自动读取频道最新视频，并列出最近 10 期。选择节目后复制链接，再打开下载站。</p>
-
+<h1>王剑每日观察｜新闻直播</h1>
+<p class="sub">只显示“最新：新闻直播”对应的日常节目。选择节目后复制链接，再打开下载站。</p>
 <section class="toolbar">
-  <div class="state" id="state">正在获取最新节目……</div>
+  <div class="state" id="state">正在读取最新新闻直播……</div>
   <div class="actions">
     <button class="primary" id="copyBtn">① 复制所选链接</button>
     <a class="btn secondary" href="https://y2mate.gs/" target="_blank" rel="noopener">② 打开 y2mate</a>
-    <button class="refresh" id="refreshBtn">重新获取最新节目</button>
+    <button class="refresh" id="refreshBtn">重新读取列表</button>
     <button class="secondary" id="shareBtn">iPhone 分享</button>
   </div>
 </section>
-
 <section class="list" id="list"></section>
-
-<div class="note">
-  动态列表依赖 YouTube RSS 和公开 RSS 转换接口。若接口临时不可用，页面会显示内置备用列表。
-  y2mate 的广告或跳转不受本页面控制；不要安装配置描述文件、未知 App，也不要允许通知。
-</div>
+<div class="note">节目列表由本仓库的 <code>videos.json</code> 提供，不再依赖手机端第三方 RSS 转换接口。y2mate 的广告和跳转不受本页面控制；不要安装配置描述文件或未知 App。</div>
 </main>
-
 <script>
-const CHANNEL_ID = "UC8UCbiPrm2zN9nZHKdTevZA";
-const RSS = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}`;
-const API = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS)}`;
-const fallback = [{"date": "2026-07-14", "title": "中共官宣马兴瑞双开习近平权力体系不稳／张展获得刘晓波人权奖／中国出口再创历史新高", "url": "https://www.youtube.com/watch?v=oPxlFN_CfJU"}, {"date": "2026-07-13", "title": "总理李强对中国经济有些紧张／川普宣布对霍尔木兹海峡征费20%／蒋方舟终翻车人民大学褫夺硕士学位", "url": "https://www.youtube.com/watch?v=lnjlULQPDH0"}, {"date": "2026-07-13", "title": "没有中国不行吗？台湾与德国给出相反答案／美菲十四国联合声明纪念南海仲裁十周年／联邦参议员格雷厄姆突然病逝", "url": "https://www.youtube.com/watch?v=j-S97XR02FQ"}, {"date": "2026-07-10", "title": "新闻茶座：洪灾与摆拍，中共政权密码", "url": "https://www.youtube.com/watch?v=XHF_z2pnvTQ"}, {"date": "2026-07-10", "title": "中国人口危机，教育是第一块倒下的多米诺骨牌／川普清空美国选举委员会／强台风巴威已经到台湾", "url": "https://www.youtube.com/watch?v=wicd5ZeQMBA"}];
-
-const listEl = document.getElementById("list");
-const stateEl = document.getElementById("state");
-
-function fmtDate(value) {
-  const d = new Date(value);
-  if (isNaN(d)) return "";
-  return d.toLocaleDateString("zh-CN", {year:"numeric",month:"2-digit",day:"2-digit"});
+const DATA_URL="./videos.json";
+const fallback=[
+ {"date":"2026-07-14","title":"中共官宣马兴瑞双开习近平权力体系不稳／张展获得刘晓波人权奖／中国出口再创历史新高／王剑每日观察／20260714","url":"https://www.youtube.com/watch?v=oPxlFN_CfJU"},
+ {"date":"2026-07-13","title":"总理李强对中国经济有些紧张／川普宣布对霍尔木兹海峡征费20%／蒋方舟终翻车人民大学褫夺硕士学位／王剑每日观察／20260713","url":"https://www.youtube.com/watch?v=lnjlULQPDH0"},
+ {"date":"2026-07-13","title":"没有中国不行吗？台湾与德国给出相反答案／美菲十四国联合声明纪念南海仲裁十周年／联邦参议员格雷厄姆突然病逝／王剑每日观察／20260713","url":"https://www.youtube.com/watch?v=j-S97XR02FQ"}
+];
+const listEl=document.getElementById("list");
+const stateEl=document.getElementById("state");
+function fmtDate(v){const d=new Date(v);return isNaN(d)?"":d.toLocaleDateString("zh-CN",{year:"numeric",month:"2-digit",day:"2-digit"});}
+function esc(v){return String(v||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function render(items,source){
+ listEl.innerHTML="";
+ items.slice(0,10).forEach((v,i)=>{
+  const card=document.createElement("article");card.className="card";
+  const title=esc(v.title||"未命名节目");const url=esc(v.url||v.link);const date=esc(v.date||fmtDate(v.pubDate));
+  card.innerHTML=`<label class="choice"><input type="radio" name="video" value="${url}" data-title="${title}" ${i===0?"checked":""}><span class="dot"></span><span class="content"><time>${date}</time><strong>${title}</strong></span></label><a class="watch" href="${url}" target="_blank" rel="noopener">在 YouTube 查看</a>`;
+  listEl.appendChild(card);
+ });
+ stateEl.className="state ok";
+ stateEl.textContent=source==="live"?`列表读取成功：显示 ${Math.min(items.length,10)} 期新闻直播`:"当前显示内置备用列表";
 }
-
-function render(items, source) {
-  listEl.innerHTML = "";
-  items.slice(0,10).forEach((v,i) => {
-    const card = document.createElement("article");
-    card.className = "card";
-    const title = (v.title || "未命名节目").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-    const url = v.url || v.link;
-    const date = v.date || fmtDate(v.pubDate);
-    card.innerHTML = `
-      <label class="choice">
-        <input type="radio" name="video" value="${url}" data-title="${title}" ${i===0?"checked":""}>
-        <span class="dot"></span>
-        <span class="content"><time>${date}</time><strong>${title}</strong></span>
-      </label>
-      <a class="watch" href="${url}" target="_blank" rel="noopener">在 YouTube 查看</a>`;
-    listEl.appendChild(card);
-  });
-  stateEl.className = "state ok";
-  stateEl.textContent = source === "live"
-    ? `已自动更新：显示最新 ${Math.min(items.length,10)} 期`
-    : "实时接口暂不可用，当前显示备用列表";
+async function loadLatest(){
+ stateEl.className="state";stateEl.textContent="正在读取最新新闻直播……";
+ try{
+  const r=await fetch(`${DATA_URL}?t=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);
+  const data=await r.json();const items=Array.isArray(data)?data:data.items;
+  if(!Array.isArray(items)||!items.length)throw new Error("无节目数据");render(items,"live");
+ }catch(e){render(fallback,"fallback");stateEl.className="state error";stateEl.textContent="列表文件暂不可用，当前显示内置备用列表";}
 }
-
-async function loadLatest() {
-  stateEl.className = "state";
-  stateEl.textContent = "正在获取最新节目……";
-  try {
-    const r = await fetch(API, {cache:"no-store"});
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    const data = await r.json();
-    if (data.status !== "ok" || !Array.isArray(data.items) || !data.items.length) throw new Error("无节目数据");
-    const items = data.items
-      .filter(x =>
-        x.link &&
-        x.link.includes("youtube.com/watch") &&
-        x.title.includes("新闻直播")
-      )
-      .map(x => ({
-        title:x.title,
-        url:x.link,
-        pubDate:x.pubDate
-      }));
-    if (!items.length) throw new Error("没有可用视频");
-    render(items, "live");
-  } catch(e) {
-    render(fallback, "fallback");
-    stateEl.className = "state error";
-  }
+function selected(){return document.querySelector('input[name="video"]:checked');}
+async function copySelected(){
+ const el=selected();if(!el)return;
+ try{await navigator.clipboard.writeText(el.value);stateEl.className="state ok";stateEl.textContent="复制成功。现在点“② 打开 y2mate”。";}
+ catch(e){const ta=document.createElement("textarea");ta.value=el.value;ta.style.position="fixed";ta.style.bottom="15px";ta.style.left="12px";ta.style.width="calc(100% - 24px)";ta.style.height="70px";ta.style.fontSize="16px";ta.style.zIndex="9999";document.body.appendChild(ta);ta.focus();ta.select();ta.setSelectionRange(0,ta.value.length);stateEl.textContent="链接已选中，请长按文字框并选择复制。";}
 }
-
-function selected() {
-  return document.querySelector('input[name="video"]:checked');
-}
-
-async function copySelected() {
-  const el = selected();
-  if (!el) return;
-  try {
-    await navigator.clipboard.writeText(el.value);
-    stateEl.className = "state ok";
-    stateEl.textContent = "复制成功。现在点“② 打开 y2mate”。";
-  } catch(e) {
-    const ta=document.createElement("textarea");
-    ta.value=el.value; ta.style.position="fixed"; ta.style.bottom="15px"; ta.style.left="12px";
-    ta.style.width="calc(100% - 24px)"; ta.style.height="70px"; ta.style.fontSize="16px"; ta.style.zIndex="9999";
-    document.body.appendChild(ta); ta.focus(); ta.select(); ta.setSelectionRange(0,ta.value.length);
-    stateEl.className = "state";
-    stateEl.textContent = "链接已选中，请长按文字框并选择“复制”。";
-  }
-}
-
-document.getElementById("copyBtn").addEventListener("click", copySelected);
-document.getElementById("refreshBtn").addEventListener("click", loadLatest);
-document.getElementById("shareBtn").addEventListener("click", async () => {
-  const el=selected(); if(!el) return;
-  if(navigator.share) {
-    try { await navigator.share({title:el.dataset.title,url:el.value}); } catch(e) {}
-  } else copySelected();
-});
-
+document.getElementById("copyBtn").addEventListener("click",copySelected);
+document.getElementById("refreshBtn").addEventListener("click",loadLatest);
+document.getElementById("shareBtn").addEventListener("click",async()=>{const el=selected();if(!el)return;if(navigator.share){try{await navigator.share({title:el.dataset.title,url:el.value});}catch(e){}}else copySelected();});
 loadLatest();
 </script>
 </body>
