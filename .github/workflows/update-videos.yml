@@ -1,4 +1,4 @@
-name: Update latest news videos
+name: Update latest news-live playlist
 
 on:
   workflow_dispatch:
@@ -22,12 +22,48 @@ jobs:
       - name: Install yt-dlp
         run: python -m pip install --upgrade yt-dlp
 
-      - name: Fetch latest 10 news-live episodes
+      - name: Find the 最新：新闻直播 playlist
         shell: bash
         run: |
           set -euo pipefail
-          yt-dlp --flat-playlist --playlist-end 60 --dump-json \
-            'https://www.youtube.com/@wongkim728/videos' > channel.jsonl
+
+          yt-dlp --flat-playlist --dump-json \
+            'https://www.youtube.com/@wongkim728/playlists' > playlists.jsonl
+
+          python - <<'PY'
+          import json
+
+          matches = []
+          with open('playlists.jsonl', encoding='utf-8') as f:
+              for line in f:
+                  try:
+                      item = json.loads(line)
+                  except json.JSONDecodeError:
+                      continue
+                  title = (item.get('title') or '').strip()
+                  playlist_id = item.get('id')
+                  if playlist_id and title == '最新：新闻直播':
+                      matches.append((title, playlist_id))
+
+          if len(matches) != 1:
+              raise SystemExit(
+                  f'Expected exactly one playlist named 最新：新闻直播, found {len(matches)}: {matches}'
+              )
+
+          playlist_id = matches[0][1]
+          with open('playlist_url.txt', 'w', encoding='utf-8') as f:
+              f.write(f'https://www.youtube.com/playlist?list={playlist_id}')
+          print(f'Playlist ID: {playlist_id}')
+          PY
+
+      - name: Fetch latest 10 episodes from that playlist only
+        shell: bash
+        run: |
+          set -euo pipefail
+          PLAYLIST_URL="$(cat playlist_url.txt)"
+
+          yt-dlp --flat-playlist --playlist-end 10 --dump-json \
+            "$PLAYLIST_URL" > videos.jsonl
 
           python - <<'PY'
           import json, re
@@ -35,46 +71,48 @@ jobs:
 
           items = []
           seen = set()
-          with open('channel.jsonl', encoding='utf-8') as f:
+
+          with open('videos.jsonl', encoding='utf-8') as f:
               for line in f:
                   try:
                       v = json.loads(line)
                   except json.JSONDecodeError:
                       continue
+
                   title = (v.get('title') or '').strip()
                   video_id = v.get('id')
-                  if not video_id or video_id in seen:
+                  if not title or not video_id or video_id in seen:
                       continue
-                  # “新闻直播”日常节目标题均带“王剑每日观察”；排除其他栏目。
-                  if '王剑每日观察' not in title:
-                      continue
-                  if any(word in title for word in ('新闻茶座', '每周新闻评论', '会员节目', '直播预告')):
-                      continue
+
                   seen.add(video_id)
                   m = re.search(r'(20\d{6})(?:\D*)$', title)
                   date = ''
                   if m:
                       raw = m.group(1)
                       date = f'{raw[:4]}-{raw[4:6]}-{raw[6:8]}'
+
                   items.append({
                       'date': date,
                       'title': title,
                       'url': f'https://www.youtube.com/watch?v={video_id}'
                   })
-                  if len(items) >= 10:
-                      break
 
-          if len(items) < 10:
-              raise SystemExit(f'Only found {len(items)} matching episodes; refusing to replace videos.json')
+          if len(items) != 10:
+              raise SystemExit(
+                  f'Playlist returned {len(items)} valid episodes instead of 10; refusing to replace videos.json'
+              )
 
           output = {
               'updated_at': datetime.now(timezone.utc).isoformat(),
+              'source_playlist': '最新：新闻直播',
               'items': items
           }
+
           with open('videos.json', 'w', encoding='utf-8') as f:
               json.dump(output, f, ensure_ascii=False, indent=2)
               f.write('\n')
-          print(f'Wrote {len(items)} episodes')
+
+          print('Wrote exactly 10 episodes from 最新：新闻直播')
           PY
 
       - name: Commit updated list
@@ -85,6 +123,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No changes.'
           else
-            git commit -m 'Update latest 10 news videos'
+            git commit -m 'Update latest 10 news-live episodes'
             git push
           fi
