@@ -1,10 +1,15 @@
 {
-  "updated_at": "2026-09-01T23:17:30.102934+00:00",
+  "updated_at": "2026-09-02T04:31:15.474759+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
     {
+      "date": "2026-09-01",
+      "title": "习近平的连任与扫黑除恶运动的底层逻辑/普京提议习近平川普三方会晤/中国楼市继续跌/王剑每日观察/20260901",
+      "url": "https://www.youtube.com/watch?v=Ubxo4hel3SY"
+    },
+    {
       "date": "",
-      "title": "Nepal racing against time while Tibet holds memorials / Xingyu Technology bullies students, ends ...",
+      "title": "Nepal Is Still Racing Against Time While Tibet Holds Memorial Services / Xinyu Shares Bullies Col...",
       "url": "https://www.youtube.com/watch?v=exmmAGyuXkg"
     },
     {
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Ministry of Public Security Order No. 176 Leaked, Chinese Netizens in a Panic / Chinese AI Short ...",
       "url": "https://www.youtube.com/watch?v=t0WGOAvPwno"
-    },
-    {
-      "date": "",
-      "title": "The Political Implications of Xi Jinping's Sudden Overseas Trips / US Suspends Immigration Visa P...",
-      "url": "https://www.youtube.com/watch?v=e5udV6y7Guk"
     }
   ]
 }
