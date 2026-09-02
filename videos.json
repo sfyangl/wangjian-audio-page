@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-09-02T11:16:21.318472+00:00",
+  "updated_at": "2026-09-02T16:33:30.950586+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-09-02",
+      "title": "中国修订征税法 现代大饥荒隐然若现/中美太空战场已经就位/习近平在埃及找川普毛病/王剑每日观察/20260902",
+      "url": "https://www.youtube.com/watch?v=Tn_fR_3arKw"
+    },
     {
       "date": "2026-09-01",
       "title": "习近平的连任与扫黑除恶运动的底层逻辑/普京提议习近平川普三方会晤/中国楼市继续跌/王剑每日观察/20260901",
@@ -46,11 +51,6 @@
       "date": "2026-08-27",
       "title": "江西省长叶建春落马 中国政局开始有些乱/ICE逮捕人数创历史新高/中情局长去莫斯科敲打普京/王剑每日观察/20260827",
       "url": "https://www.youtube.com/watch?v=z-MIExfWkzc"
-    },
-    {
-      "date": "",
-      "title": "Ministry of Public Security Order No. 176 Leaked, Chinese Netizens in a Panic / Chinese AI Short ...",
-      "url": "https://www.youtube.com/watch?v=t0WGOAvPwno"
     }
   ]
 }
