@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-09-04T11:15:57.582611+00:00",
+  "updated_at": "2026-09-04T16:20:11.389374+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-09-04",
+      "title": "朱忠明出任上海市长/习近平正在脱离现实世界/韩国研究派兵波斯湾/王剑每日新闻/20260904",
+      "url": "https://www.youtube.com/watch?v=HUwTHX1z9Eg"
+    },
     {
       "date": "2026-09-03",
       "title": "习近平为什么清洗钟绍军？/尼泊尔特大泥石流灾害震撼印度/美国民众认为川普政府腐败/王剑每日观察/20260903",
@@ -46,11 +51,6 @@
       "date": "2026-08-29",
       "title": "新闻茶座：中共各派系抢班布局 习近平马仔腾位子/王剑每日观察/20260829",
       "url": "https://www.youtube.com/watch?v=2Zg4zVUYbjc"
-    },
-    {
-      "date": "",
-      "title": "China's Massive New Real Estate Stimulus Package: All-Out Rescue Effort / Gyirong Port in Tibet L...",
-      "url": "https://www.youtube.com/watch?v=Gt5T16NfUhg"
     }
   ]
 }
