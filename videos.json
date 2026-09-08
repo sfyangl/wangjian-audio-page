@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-09-08T11:16:37.479019+00:00",
+  "updated_at": "2026-09-08T16:36:50.916778+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-09-08",
+      "title": "英语到底要不要学？中国又开始争论了！/中国癌症治疗工业化是什么样子？/波斯湾战火重燃/王剑每日观察/20260908",
+      "url": "https://www.youtube.com/watch?v=Uo04r4mAVsk"
+    },
     {
       "date": "2026-09-05",
       "title": "中国社交媒体正在变得越来越黑色/重回东北的浪漫与现实/台湾人口危机日益严重/王剑每日观察/20260905",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "China Revises Tax Law, Looming Modern Famine / US-China Space Battlefield Is Set / Xi Jinping Fin...",
       "url": "https://www.youtube.com/watch?v=Tn_fR_3arKw"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "习近平的连任与扫黑除恶运动的底层逻辑/普京提议习近平川普三方会晤/中国楼市继续跌/王剑每日观察/20260901",
-      "url": "https://www.youtube.com/watch?v=Ubxo4hel3SY"
     }
   ]
 }
