@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-09-07T23:29:00.664917+00:00",
+  "updated_at": "2026-09-08T04:33:08.855452+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-09-05",
+      "title": "中国社交媒体正在变得越来越黑色/重回东北的浪漫与现实/台湾人口危机日益严重/王剑每日观察/20260905",
+      "url": "https://www.youtube.com/watch?v=jOBWqimD3wg"
+    },
     {
       "date": "2026-09-07",
       "title": "中国低价经济学：低廉的日常消费，昂贵的权力成本/郭德纲演出风波通报了/美国中期选举波橘云诡/王剑每日观察/20260907",
@@ -46,11 +51,6 @@
       "date": "2026-09-01",
       "title": "习近平的连任与扫黑除恶运动的底层逻辑/普京提议习近平川普三方会晤/中国楼市继续跌/王剑每日观察/20260901",
       "url": "https://www.youtube.com/watch?v=Ubxo4hel3SY"
-    },
-    {
-      "date": "",
-      "title": "Nepal Is Still Racing Against Time While Tibet Holds Memorial Services / Xinyu Shares Bullies Col...",
-      "url": "https://www.youtube.com/watch?v=exmmAGyuXkg"
     }
   ]
 }
