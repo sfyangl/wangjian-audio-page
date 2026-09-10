@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-09-09T23:13:52.209386+00:00",
+  "updated_at": "2026-09-10T04:40:35.009378+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-09-09",
+      "title": "毛泽东阴魂不散 习近平要当舵手2.0/美国政府起诉华为公司/海底捞老板卖股票交税/王剑每日观察/20260909",
+      "url": "https://www.youtube.com/watch?v=6nOUANRp9J4"
+    },
     {
       "date": "2026-09-09",
       "title": "AI发力，一人公司席卷全球/中国精神障碍病人1.9亿/中国创新指数全球第一？开什么玩笑/王剑每日观察/20260909",
@@ -46,11 +51,6 @@
       "date": "2026-09-03",
       "title": "习近平为什么清洗钟绍军？/尼泊尔特大泥石流灾害震撼印度/美国民众认为川普政府腐败/王剑每日观察/20260903",
       "url": "https://www.youtube.com/watch?v=cs9pRgyaea0"
-    },
-    {
-      "date": "",
-      "title": "How is China's Economic Crisis Reshaping Chinese Lifestyles? / The Strategic Contradictions of Xi...",
-      "url": "https://www.youtube.com/watch?v=K_dJi9edheI"
     }
   ]
 }
