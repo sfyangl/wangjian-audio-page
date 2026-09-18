@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-09-18T11:11:39.266404+00:00",
+  "updated_at": "2026-09-18T16:22:38.033556+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "",
+      "title": "香港的港元还能存在多长时间？/巴菲特退休了/广东英德硫磺熏制竹笋曝光了/王剑每日观察/202609018",
+      "url": "https://www.youtube.com/watch?v=9v_WA-5c0uE"
+    },
     {
       "date": "",
       "title": "Chinese Officialdom: How Your Looks Impact Your Career Prospects? / China Takes Action in the Mid...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Members-Only Livestream / Wang Jian Daily Observation / 09/12/2026",
       "url": "https://www.youtube.com/watch?v=oYh8AY2yYu0"
-    },
-    {
-      "date": "",
-      "title": "新闻茶座：财政崩溃下，中国何时破局？/王剑每日观察/202609012",
-      "url": "https://www.youtube.com/watch?v=b5MbDvJ_RgU"
     }
   ]
 }
