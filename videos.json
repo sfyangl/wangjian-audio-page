@@ -1,10 +1,15 @@
 {
-  "updated_at": "2026-09-30T12:31:51.169234+00:00",
+  "updated_at": "2026-09-30T20:00:10.374711+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
     {
+      "date": "2026-09-30",
+      "title": "习近平国庆讲话的玄机与困境/美伊停火方案接近达成/网信办弱势群体打假的无耻/王剑每日观察/20260930",
+      "url": "https://www.youtube.com/watch?v=hQGftQGX40M"
+    },
+    {
       "date": "",
-      "title": "中国出口迷局与失业迷思/美国AI企业签署监管协议/美军变相在日本部署提丰中导系统/王剑每日观察/202609029",
+      "title": "China's Export Conundrum and Unemployment Myths / US AI Companies Sign Regulatory Agreement / US ...",
       "url": "https://www.youtube.com/watch?v=GBLn_RXX_-4"
     },
     {
@@ -46,11 +51,6 @@
       "date": "",
       "title": "中美峰会：川普的顶格礼宾待遇与习近平的稀土筹码/中美峰会在华盛顿 纽约的联合国怎么办？/OpenAI入侵澳洲政府网站/王剑每日观察/202609024",
       "url": "https://www.youtube.com/watch?v=KY1mkJ_YPFA"
-    },
-    {
-      "date": "",
-      "title": "Xi Jinping Arrives; Summit Results: Busan Trade Truce Extended by Two Months / Sanae Takaichi Dem...",
-      "url": "https://www.youtube.com/watch?v=8z_3FLzX-Uk"
     }
   ]
 }
