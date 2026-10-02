@@ -1,10 +1,15 @@
 {
-  "updated_at": "2026-10-02T09:43:39.450850+00:00",
+  "updated_at": "2026-10-02T17:51:37.802405+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
     {
+      "date": "2026-10-02",
+      "title": "中国国庆及其相关常识/美军协防沙特的用意/台湾开始接收F16V战机/王剑每日观察/20261002",
+      "url": "https://www.youtube.com/watch?v=iGPgw3f2azo"
+    },
+    {
       "date": "2026-09-30",
-      "title": "中国停止出口成品油 把酒言欢后习近平背刺川普/美军向中东增派第三艘航母/中国楼市九月继续下跌/王剑每日观察/20260930",
+      "title": "把酒言欢后习近平背刺川普/美军向中东增派第三艘航母/中国楼市九月继续下跌/王剑每日观察/20260930",
       "url": "https://www.youtube.com/watch?v=wLn4ifIl8Zs"
     },
     {
@@ -46,11 +51,6 @@
       "date": "",
       "title": "新闻茶座：举国体育正在失血 中国军团何去何从？/王剑每日观察/202609025",
       "url": "https://www.youtube.com/watch?v=85dY5J8hzDg"
-    },
-    {
-      "date": "",
-      "title": "Trump-Xi Meeting: Xi Jinping’s Diplomatic Victory, China on Equal Footing with the US / How Are t...",
-      "url": "https://www.youtube.com/watch?v=Qo6NCM7gDeY"
     }
   ]
 }
