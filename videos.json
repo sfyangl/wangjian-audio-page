@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-03T11:38:01.907254+00:00",
+  "updated_at": "2026-10-03T16:16:04.619451+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-03",
+      "title": "新闻茶座：从访美行程看习近平的健康与接班人安排/王剑每日观察/20261003",
+      "url": "https://www.youtube.com/watch?v=ttVqDx-lvFE"
+    },
     {
       "date": "2026-09-30",
       "title": "国男足0:5败给巴勒斯坦队 习近平知道吗？/人工智能会消灭会多少岗位？/北京人真舍不得他们的无人机啊/王剑每日观察/20260930",
@@ -23,8 +28,8 @@
       "url": "https://www.youtube.com/watch?v=qaUVMq9Vv-M"
     },
     {
-      "date": "2026-09-30",
-      "title": "中国当前的经济困局有可能政治解决吗？/机密文件：中共对雨伞运动想动武/美军成立自主作战司令部/王剑每日观察/20260930",
+      "date": "",
+      "title": "Can China's Current Economic Predicament Be Solved Politically? / Classified Documents: CCP Consi...",
       "url": "https://www.youtube.com/watch?v=Fpi-kdvSc9Q"
     },
     {
@@ -46,11 +51,6 @@
       "date": "",
       "title": "说说潘石屹，想起了任志强/中国从土地财政到婚宴市场都是经济坍塌现场/川普问习近平买不买美国武器？/王剑每日观察/202609028",
       "url": "https://www.youtube.com/watch?v=QHIvq_OunDg"
-    },
-    {
-      "date": "",
-      "title": "习近平动员极端社会控制 中共正在蜕化为贪吃蛇/川普说美伊本周停火谈判/暴风雨袭卷美国东北部/王剑每日观察/202609028",
-      "url": "https://www.youtube.com/watch?v=D8ZTvXlh3u0"
     }
   ]
 }
