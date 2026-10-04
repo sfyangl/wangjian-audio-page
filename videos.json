@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-03T23:47:08.546438+00:00",
+  "updated_at": "2026-10-04T05:50:09.160788+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "",
+      "title": "Members-Only Livestream / Wang Jian Daily Observation / 10/03/2026",
+      "url": "https://www.youtube.com/watch?v=wh64XVZb9fM"
+    },
     {
       "date": "2026-10-03",
       "title": "新闻茶座：从访美行程看习近平的健康与接班人安排/王剑每日观察/20261003",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "中国推出财政贴息政策挽救楼市/中日在联合国交锋/韩国习近平餐厅改名了/王剑每日观察/202609029",
       "url": "https://www.youtube.com/watch?v=TyIMB3aBo_I"
-    },
-    {
-      "date": "",
-      "title": "说说潘石屹，想起了任志强/中国从土地财政到婚宴市场都是经济坍塌现场/川普问习近平买不买美国武器？/王剑每日观察/202609028",
-      "url": "https://www.youtube.com/watch?v=QHIvq_OunDg"
     }
   ]
 }
