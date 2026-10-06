@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-05T22:00:22.204708+00:00",
+  "updated_at": "2026-10-06T06:17:58.566382+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-05",
+      "title": "中国彩礼还在涨 婚姻账单压垮传统家庭/蒋万安攻击沈伯洋毒品论文糗大了/中欧贸易战箭在弦上/王剑每日观察/20261005",
+      "url": "https://www.youtube.com/watch?v=Zzah_HsH6is"
+    },
     {
       "date": "2026-10-05",
       "title": "中国人开始逃离黄金周/蔡康永现身沈伯洋活动的后果/薄家第三代在想什么呢？/美国中期选举形势初现/王剑每日观察/20261005",
@@ -13,8 +18,8 @@
       "url": "https://www.youtube.com/watch?v=wh64XVZb9fM"
     },
     {
-      "date": "2026-10-03",
-      "title": "新闻茶座：从访美行程看习近平的健康与接班人安排/王剑每日观察/20261003",
+      "date": "",
+      "title": "News Tea Break: Xi Jinping’s Health and Succession Planning as Seen Through His US Visit / Wang J...",
       "url": "https://www.youtube.com/watch?v=ttVqDx-lvFE"
     },
     {
@@ -46,11 +51,6 @@
       "date": "2026-09-30",
       "title": "习近平国庆讲话的玄机与困境/美伊停火方案接近达成/网信办弱势群体打假的无耻/王剑每日观察/20260930",
       "url": "https://www.youtube.com/watch?v=hQGftQGX40M"
-    },
-    {
-      "date": "",
-      "title": "China's Export Conundrum and Unemployment Myths / US AI Companies Sign Regulatory Agreement / US ...",
-      "url": "https://www.youtube.com/watch?v=GBLn_RXX_-4"
     }
   ]
 }
