@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-07T13:20:04.756195+00:00",
+  "updated_at": "2026-10-07T20:35:58.699975+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-06",
+      "title": "世卫要求俄罗斯通报病情/沈伯洋上少康战情室 淡定突破同温层/中国漫长的黄昏：从日本式经济停滞到苏联式政治瘫痪/王剑每日观察/20261006",
+      "url": "https://www.youtube.com/watch?v=e48kIR-7O1o"
+    },
     {
       "date": "2026-10-06",
       "title": "中国经济光明论唱不动了/美国中期选举提前投票/川普政府提起40起公民身份诉讼/王剑每日观察/20261006",
@@ -46,11 +51,6 @@
       "date": "2026-09-30",
       "title": "把酒言欢后习近平背刺川普/美军向中东增派第三艘航母/中国楼市九月继续下跌/王剑每日观察/20260930",
       "url": "https://www.youtube.com/watch?v=wLn4ifIl8Zs"
-    },
-    {
-      "date": "",
-      "title": "What Does the US View of a Substantially Decreased Risk of War in the Taiwan Strait Mean? / Break...",
-      "url": "https://www.youtube.com/watch?v=qaUVMq9Vv-M"
     }
   ]
 }
