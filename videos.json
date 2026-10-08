@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-08T10:32:22.237947+00:00",
+  "updated_at": "2026-10-08T18:50:05.545161+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-08",
+      "title": "台北市长选举 沈伯洋民调逼近蒋万安/华为尊界汽车刹车踏板断裂冲热搜/西方对华贸易怒潮风起云涌/王剑每日观察/20261008",
+      "url": "https://www.youtube.com/watch?v=ELHCxH4iZ5c"
+    },
     {
       "date": "2026-10-07",
       "title": "在中国生存感到低贱的一百个瞬间/川普让美军准备好打伊朗/美军恢复枪决死囚犯/王剑每日观察/20261007",
@@ -46,11 +51,6 @@
       "date": "2026-09-30",
       "title": "国男足0:5败给巴勒斯坦队 习近平知道吗？/人工智能会消灭会多少岗位？/北京人真舍不得他们的无人机啊/王剑每日观察/20260930",
       "url": "https://www.youtube.com/watch?v=wFJrrgKUHFI"
-    },
-    {
-      "date": "",
-      "title": "China's National Day and Related Facts / U.S. Military Defense of Saudi Arabia / Taiwan Begins Re...",
-      "url": "https://www.youtube.com/watch?v=iGPgw3f2azo"
     }
   ]
 }
