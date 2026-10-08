@@ -1,20 +1,25 @@
 {
-  "updated_at": "2026-10-08T00:58:47.166050+00:00",
+  "updated_at": "2026-10-08T10:32:22.237947+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-07",
+      "title": "在中国生存感到低贱的一百个瞬间/川普让美军准备好打伊朗/美军恢复枪决死囚犯/王剑每日观察/20261007",
+      "url": "https://www.youtube.com/watch?v=9Nh3i0ZO-Jg"
+    },
     {
       "date": "2026-10-06",
       "title": "世卫要求俄罗斯通报病情/沈伯洋上少康战情室 淡定突破同温层/中国漫长的黄昏：从日本式经济停滞到苏联式政治瘫痪/王剑每日观察/20261006",
       "url": "https://www.youtube.com/watch?v=e48kIR-7O1o"
     },
     {
-      "date": "2026-10-06",
-      "title": "中国经济光明论唱不动了/美国中期选举提前投票/川普政府提起40起公民身份诉讼/王剑每日观察/20261006",
+      "date": "",
+      "title": "The \"Bright Outlook\" for China's Economy Is Fading / Early Voting in U.S. Midterm Elections / Tru...",
       "url": "https://www.youtube.com/watch?v=iPEaCugqyDU"
     },
     {
-      "date": "2026-10-06",
-      "title": "闲鱼上的艰难人生/中国税务总局新的幺蛾子/乒乓球男单世界排名王楚钦三甲不入/王剑每日观察/20261006",
+      "date": "",
+      "title": "The hardships of life on Xianyu (a second-hand marketplace platform) / New antics from the State ...",
       "url": "https://www.youtube.com/watch?v=FFrnDiBJ4uo"
     },
     {
@@ -46,11 +51,6 @@
       "date": "",
       "title": "China's National Day and Related Facts / U.S. Military Defense of Saudi Arabia / Taiwan Begins Re...",
       "url": "https://www.youtube.com/watch?v=iGPgw3f2azo"
-    },
-    {
-      "date": "2026-09-30",
-      "title": "把酒言欢后习近平背刺川普/美军向中东增派第三艘航母/中国楼市九月继续下跌/王剑每日观察/20260930",
-      "url": "https://www.youtube.com/watch?v=wLn4ifIl8Zs"
     }
   ]
 }
