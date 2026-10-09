@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-09T10:30:42.107869+00:00",
+  "updated_at": "2026-10-09T18:20:31.900606+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-09",
+      "title": "中欧贸易谈判无果 贸易战不可避免/俄罗斯伊尔库茨克结束隔离和医学观察/十一黄金周消费继续跌/王剑每日观察/20261009",
+      "url": "https://www.youtube.com/watch?v=4YPZmvN_7hY"
+    },
     {
       "date": "2026-10-08",
       "title": "大闸蟹市场全线崩盘 江浙沪经济凉凉/蒋万安上郭正亮节目 四字真言网友笑翻/广州砍树书记官宣落马/王剑每日观察/20261008",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Members-Only Livestream / Wang Jian Daily Observation / 10/03/2026",
       "url": "https://www.youtube.com/watch?v=wh64XVZb9fM"
-    },
-    {
-      "date": "",
-      "title": "News Tea Break: Xi Jinping’s Health and Succession Planning as Seen Through His US Visit / Wang J...",
-      "url": "https://www.youtube.com/watch?v=ttVqDx-lvFE"
     }
   ]
 }
