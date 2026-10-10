@@ -1,10 +1,15 @@
 {
-  "updated_at": "2026-10-10T00:48:46.128047+00:00",
+  "updated_at": "2026-10-10T09:48:01.112576+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
     {
       "date": "2026-10-09",
-      "title": "中欧贸易谈判无果 贸易战不可避免/俄罗斯伊尔库茨克结束隔离和医学观察/十一黄金周消费继续跌/王剑每日观察/20261009",
+      "title": "习近平究竟管不管经济？/川普进口俄罗斯柴油为普京续命/欧盟拿到中国怎样的承诺？/王剑每日观察/20261009",
+      "url": "https://www.youtube.com/watch?v=4Txr7gV9HtU"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "中欧贸易谈判无果/俄罗斯伊尔库茨克结束隔离和医学观察/十一黄金周消费继续跌/王剑每日观察/20261009",
       "url": "https://www.youtube.com/watch?v=4YPZmvN_7hY"
     },
     {
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Chinese begin to flee the Golden Week holiday / The consequences of Cai Kangyong's appearance at ...",
       "url": "https://www.youtube.com/watch?v=cYJuDZvSHqQ"
-    },
-    {
-      "date": "",
-      "title": "Members-Only Livestream / Wang Jian Daily Observation / 10/03/2026",
-      "url": "https://www.youtube.com/watch?v=wh64XVZb9fM"
     }
   ]
 }
