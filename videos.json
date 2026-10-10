@@ -1,15 +1,20 @@
 {
-  "updated_at": "2026-10-10T09:48:01.112576+00:00",
+  "updated_at": "2026-10-10T17:19:51.724572+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-09",
+      "title": "新闻茶座：从文革结束50周年到习近平的新个人极权主义/王剑每日观察/20261009",
+      "url": "https://www.youtube.com/watch?v=S_7bki9bWhY"
+    },
     {
       "date": "2026-10-09",
       "title": "习近平究竟管不管经济？/川普进口俄罗斯柴油为普京续命/欧盟拿到中国怎样的承诺？/王剑每日观察/20261009",
       "url": "https://www.youtube.com/watch?v=4Txr7gV9HtU"
     },
     {
-      "date": "2026-10-09",
-      "title": "中欧贸易谈判无果/俄罗斯伊尔库茨克结束隔离和医学观察/十一黄金周消费继续跌/王剑每日观察/20261009",
+      "date": "",
+      "title": "EU-China trade talks stall / Irkutsk, Russia ends quarantine and medical observation / \"Golden We...",
       "url": "https://www.youtube.com/watch?v=4YPZmvN_7hY"
     },
     {
@@ -23,8 +28,8 @@
       "url": "https://www.youtube.com/watch?v=ELHCxH4iZ5c"
     },
     {
-      "date": "2026-10-07",
-      "title": "在中国生存感到低贱的一百个瞬间/川普让美军准备好打伊朗/美军恢复枪决死囚犯/王剑每日观察/20261007",
+      "date": "",
+      "title": "100 Moments of Feeling Degraded Living in China / Trump Prepares U.S. Military for War with Iran ...",
       "url": "https://www.youtube.com/watch?v=9Nh3i0ZO-Jg"
     },
     {
@@ -46,11 +51,6 @@
       "date": "2026-10-05",
       "title": "中国彩礼还在涨 婚姻账单压垮传统家庭/蒋万安攻击沈伯洋毒品论文糗大了/中欧贸易战箭在弦上/王剑每日观察/20261005",
       "url": "https://www.youtube.com/watch?v=Zzah_HsH6is"
-    },
-    {
-      "date": "",
-      "title": "Chinese begin to flee the Golden Week holiday / The consequences of Cai Kangyong's appearance at ...",
-      "url": "https://www.youtube.com/watch?v=cYJuDZvSHqQ"
     }
   ]
 }
