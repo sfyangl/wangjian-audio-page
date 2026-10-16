@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-16T16:37:00.259795+00:00",
+  "updated_at": "2026-10-16T21:05:24.739477+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-16",
+      "title": "中共掀起社保风暴，老百姓民怨沸腾激，或激起民变/中国限制40项关键技术出口/俄罗斯没收欧洲企业资产/王剑每日观察/20261016",
+      "url": "https://www.youtube.com/watch?v=wC04dZDya1U"
+    },
     {
       "date": "2026-10-15",
       "title": "习近平震怒 调查组查尊界刹车踏板问题/欧盟准备扩大对中国商品进口限制/美国防务科技企业大举进军台湾/王剑每日观察/20261015",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Why China's Social Security Crisis Has Become a Gray Rhino / Shen Po-yang and Chiang Wan-an's Ele...",
       "url": "https://www.youtube.com/watch?v=6koC1NKyQBo"
-    },
-    {
-      "date": "",
-      "title": "News Tea House: From the 50th Anniversary of the End of the Cultural Revolution to Xi Jinping's N...",
-      "url": "https://www.youtube.com/watch?v=S_7bki9bWhY"
     }
   ]
 }
