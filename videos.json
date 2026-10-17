@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-17T15:31:57.842551+00:00",
+  "updated_at": "2026-10-17T20:34:35.690506+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-17",
+      "title": "新闻茶座：社保风暴下，荒谬时代普通人的恐惧与勇敢/王剑每日观察/20261017",
+      "url": "https://www.youtube.com/watch?v=aQvL7xy4j6Q"
+    },
     {
       "date": "2026-10-16",
       "title": "习近平内蒙考察，揭示新质生产力的权力逻辑/人工智能威胁中国的世界工厂你信吗？/乌克兰星链受阻是马斯克搞的鬼/王剑每日观察/20261016",
@@ -46,11 +51,6 @@
       "date": "2026-10-12",
       "title": "五中全会18项安保措施与中共维稳系统/新民调苏巧慧赢李四川，沈伯洋蒋万安八字比拼/新皇岗口岸启用香港零售更惨/王剑每日观察/20261012",
       "url": "https://www.youtube.com/watch?v=PF_YKNwgvzE"
-    },
-    {
-      "date": "",
-      "title": "China's Social Security Crisis: A Ponzi Scheme Sustained by the Youth (Featured Topic) / 8-Minute...",
-      "url": "https://www.youtube.com/watch?v=pi31RxyqtSU"
     }
   ]
 }
