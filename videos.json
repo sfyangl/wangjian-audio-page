@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-20T23:51:36.247005+00:00",
+  "updated_at": "2026-10-21T04:43:21.455991+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-20",
+      "title": "家庭破产潮冲击中国金融系统/蒋万安尚未止损；沈伯洋看好度不足/川普赦免的金钱运作曝光/王剑每日观察/20261020",
+      "url": "https://www.youtube.com/watch?v=UXOaDutWASI"
+    },
     {
       "date": "",
       "title": "Xi Jinping Purges Huang Qifan and 21st Party Congress Re-election Strategy / China's Auto Market ...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "New Social Security Rules: Up to 3x Fines for Unpaid Premiums / Shen Po-yang's Silent Campaign Mo...",
       "url": "https://www.youtube.com/watch?v=JMq6EjoGcPI"
-    },
-    {
-      "date": "",
-      "title": "Reasons for Huang Qifan's downfall / Number of people recruited for the national civil service ex...",
-      "url": "https://www.youtube.com/watch?v=zpRzkbPtywA"
     }
   ]
 }
