@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-22T04:41:07.191728+00:00",
+  "updated_at": "2026-10-22T11:49:05.576854+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "",
+      "title": "Xi Jinping begins to elevate public opinion to campaign for re-election / Another poll shows Shen...",
+      "url": "https://www.youtube.com/watch?v=JwrRHiH9aE4"
+    },
     {
       "date": "2026-10-21",
       "title": "习近平为什么拜起了国民党孙中山？/华为汽车又出事了 还闹出人命/归还韩国战时指挥权美国怎么变卦了？/王剑每日观察/20261021",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Xi Jinping Furious: Investigation Team Probes Maextro Brake Pedal Issues / EU Prepares to Expand ...",
       "url": "https://www.youtube.com/watch?v=NXk8gOM2Ojc"
-    },
-    {
-      "date": "",
-      "title": "Will Xi Jinping reinstate the fragmented Politburo Standing Committee? / Huang Qifan's downfall w...",
-      "url": "https://www.youtube.com/watch?v=kBeRkebQ8_Y"
     }
   ]
 }
