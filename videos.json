@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-22T11:49:05.576854+00:00",
+  "updated_at": "2026-10-22T17:08:34.617973+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-22",
+      "title": "北京常务副市长官宣落马 蔡奇亲信/赵薇封杀5年现身新加坡 /习近平的新长征：一个人的胜利/王剑每日观察/20261022",
+      "url": "https://www.youtube.com/watch?v=qAwdjsvwPEc"
+    },
     {
       "date": "",
       "title": "Xi Jinping begins to elevate public opinion to campaign for re-election / Another poll shows Shen...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "CCP Sparks Social Security Crisis, Public Outrage May Trigger Unrest / China Restricts Exports of...",
       "url": "https://www.youtube.com/watch?v=wC04dZDya1U"
-    },
-    {
-      "date": "",
-      "title": "Xi Jinping Furious: Investigation Team Probes Maextro Brake Pedal Issues / EU Prepares to Expand ...",
-      "url": "https://www.youtube.com/watch?v=NXk8gOM2Ojc"
     }
   ]
 }
