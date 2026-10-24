@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-23T21:22:48.811625+00:00",
+  "updated_at": "2026-10-24T04:33:39.177381+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-23",
+      "title": "中国有钱人开始搬钱去美国/李强再撩社保话题 养老金缺口究竟多大？/川普选前会打伊朗吗？/王剑每日观察/20261023",
+      "url": "https://www.youtube.com/watch?v=gW89szIwgK0"
+    },
     {
       "date": "",
       "title": "China's Declining Fiscal Strength and Unsustainable Spending / Bizarre Political Atmosphere in Be...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "US, China, and Russia Weigh Trump-Xi-Putin Summit / China's Economy in Turmoil as Official Data F...",
       "url": "https://www.youtube.com/watch?v=RFUqPrcnUNk"
-    },
-    {
-      "date": "2026-10-17",
-      "title": "新闻茶座：社保风暴下，荒谬时代普通人的恐惧与勇敢/王剑每日观察/20261017",
-      "url": "https://www.youtube.com/watch?v=aQvL7xy4j6Q"
     }
   ]
 }
