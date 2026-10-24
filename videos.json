@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-24T10:56:36.631993+00:00",
+  "updated_at": "2026-10-24T15:55:13.911513+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-24",
+      "title": "新闻茶座：与98国企下岗潮相比，中国社会为什么现在更绝望？/王剑每日观察/20261024",
+      "url": "https://www.youtube.com/watch?v=uYuHovHga7M"
+    },
     {
       "date": "",
       "title": "The Wealthy in China Begin Moving Money to the U.S. / Li Qiang Revisits Social Security: How Big ...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Social Security Storm Highlights CCP's Coercive Governance / Taipei Election Tensions: Will Chian...",
       "url": "https://www.youtube.com/watch?v=gmN3pS_N_PA"
-    },
-    {
-      "date": "",
-      "title": "US, China, and Russia Weigh Trump-Xi-Putin Summit / China's Economy in Turmoil as Official Data F...",
-      "url": "https://www.youtube.com/watch?v=RFUqPrcnUNk"
     }
   ]
 }
