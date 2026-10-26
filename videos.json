@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-26T12:58:23.801232+00:00",
+  "updated_at": "2026-10-26T20:28:08.118456+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-26",
+      "title": "五中全会开幕 习近平政治猜想：从到中共主席到习家军反噬/中国科技股泡沫正在破裂/川普又在喊打伊朗/王剑每日观察/20261026",
+      "url": "https://www.youtube.com/watch?v=dI6GDsjNJWc"
+    },
     {
       "date": "",
       "title": "News Tea Time: Why is Chinese society more desperate now than during the 1998 SOE layoffs? / Wang...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Xi Jinping Purges Huang Qifan and 21st Party Congress Re-election Strategy / China's Auto Market ...",
       "url": "https://www.youtube.com/watch?v=8hvzVA0KIoo"
-    },
-    {
-      "date": "",
-      "title": "Social Security Storm Highlights CCP's Coercive Governance / Taipei Election Tensions: Will Chian...",
-      "url": "https://www.youtube.com/watch?v=gmN3pS_N_PA"
     }
   ]
 }
