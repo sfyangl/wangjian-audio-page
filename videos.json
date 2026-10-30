@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-30T09:58:13.677366+00:00",
+  "updated_at": "2026-10-30T17:59:19.928871+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-30",
+      "title": "珠海华发集团爆发债务危机 国企龙头也不行了/朝鲜黑客袭击币安狂盗63亿美元/大阪楼市也涨不动了/王剑每日观察/20261030",
+      "url": "https://www.youtube.com/watch?v=EVV4K1S3_rk"
+    },
     {
       "date": "",
       "title": "From Stimulus Measures to Administrative Coercion: The CCP's Governance Model Exposed / 78 High S...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "News Tea Time: Why is Chinese society more desperate now than during the 1998 SOE layoffs? / Wang...",
       "url": "https://www.youtube.com/watch?v=uYuHovHga7M"
-    },
-    {
-      "date": "",
-      "title": "The Wealthy in China Begin Moving Money to the U.S. / Li Qiang Revisits Social Security: How Big ...",
-      "url": "https://www.youtube.com/watch?v=gW89szIwgK0"
     }
   ]
 }
