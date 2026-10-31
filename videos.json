@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-30T22:17:03.658477+00:00",
+  "updated_at": "2026-10-31T05:37:26.953039+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-10-29",
+      "title": "中国股灾演变成社会事件 何立峰幕后决策/中国经济10月全面转弱/中国资金撤出港股/王剑每日观察/20261029",
+      "url": "https://www.youtube.com/watch?v=Tcwc3vRNx-Q"
+    },
     {
       "date": "",
       "title": "CZ's Binance Hit by Largest Hack in History, Massive Theft! / Wang Jian's Daily Observation #shor...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "China's Offshore Trust Tax Crackdown Turns into Official \"Distant-Water Fishing\" / Influencer Fen...",
       "url": "https://www.youtube.com/watch?v=_1Kyk_Vez-4"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "五中全会开幕 习近平政治猜想：从中共主席到习家军反噬/中国科技股泡沫正在破裂/川普又在喊打伊朗/王剑每日观察/20261026",
-      "url": "https://www.youtube.com/watch?v=dI6GDsjNJWc"
     }
   ]
 }
