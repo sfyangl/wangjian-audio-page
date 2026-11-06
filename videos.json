@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-05T23:37:19.497674+00:00",
+  "updated_at": "2026-11-06T06:40:09.430688+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-05",
+      "title": "中期选举惨败 川普政府出现权力震荡/美国科技股血洗 市值蒸发2.5万亿美元/张一鸣登上福布斯中国首富/王剑每日观察/20261105",
+      "url": "https://www.youtube.com/watch?v=TobUFp5QN-c"
+    },
     {
       "date": "2026-11-05",
       "title": "中国2026年进入转折，婚育、就业、养老同时越过拐点/共和党惨败 中国能获利？/香港社运领袖黄之锋加刑10年/王剑每日观察/20261105",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "China's Stock Market Crash Turns into Social Unrest, He Lifeng's Behind-the-Scenes Decisions / Ch...",
       "url": "https://www.youtube.com/watch?v=Tcwc3vRNx-Q"
-    },
-    {
-      "date": "",
-      "title": "CZ's Binance Hit by Largest Hack in History, Massive Theft! / Wang Jian's Daily Observation #shor...",
-      "url": "https://www.youtube.com/watch?v=hx8UaQPLzNY"
     }
   ]
 }
