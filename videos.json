@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-07T12:57:27.751078+00:00",
+  "updated_at": "2026-11-07T19:24:59.009415+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-07",
+      "title": "新闻茶座：中国中产正在坠落，为什么越来越难翻身？/马斯克在中期选举中失去了什么？王剑每日观察/20261107",
+      "url": "https://www.youtube.com/watch?v=UqmT48XsDLA"
+    },
     {
       "date": "",
       "title": "The 21st clarion call sounds: How will Xi Jinping position the Standing Committee? / Trump's chie...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "What Does Xi Jinping's Re-election Mean for China? / How Is the People's Bank of China Preventing...",
       "url": "https://www.youtube.com/watch?v=jvgL-D5cpq8"
-    },
-    {
-      "date": "",
-      "title": "Market Rescue Measures Spark Chinese Stock Market Rebound, But Investor Sentiment Has Shifted / S...",
-      "url": "https://www.youtube.com/watch?v=2iV70jp811Q"
     }
   ]
 }
