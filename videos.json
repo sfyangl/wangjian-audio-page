@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-09T06:22:10.025848+00:00",
+  "updated_at": "2026-11-09T19:46:42.348736+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-09",
+      "title": "绯闻主角黄乐是谁？英伟达黄仁勋现在怎么脱身？/川普说驱逐移民政策过于强硬/中国社会不平静/王剑每日观察/20261109",
+      "url": "https://www.youtube.com/watch?v=eHZ4hRSCt3A"
+    },
     {
       "date": "",
       "title": "News Tea House: The Fall of the Chinese Middle Class, Why Is It Getting Harder to Bounce Back? / ...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Midterm Election Day! Americans can't wait / CSRC halts IPOs to boost the market / Chiang Wan-an'...",
       "url": "https://www.youtube.com/watch?v=HSLL-f-FL-E"
-    },
-    {
-      "date": "",
-      "title": "What Does Xi Jinping's Re-election Mean for China? / How Is the People's Bank of China Preventing...",
-      "url": "https://www.youtube.com/watch?v=jvgL-D5cpq8"
     }
   ]
 }
