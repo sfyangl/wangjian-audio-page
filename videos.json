@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-10T14:50:14.810074+00:00",
+  "updated_at": "2026-11-10T21:17:00.594487+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-10",
+      "title": "美国政府对黄乐查到什么？黄仁勋绯闻性质变了/习近平普京川普三方峰会还不确定/民调要求民主党快速行动/王剑每日观察/20261110",
+      "url": "https://www.youtube.com/watch?v=1XWjjCqDOa8"
+    },
     {
       "date": "2026-11-09",
       "title": "中方对黄仁勋绯闻的怪异反应/美国众议院发起对战争部长弹劾/生娘不及养娘大？/王剑每日观察/20261109",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "The Trump Era Ends, U.S. Enters Lame Duck Politics / Misinformation Runs Wild in U.S. Midterms / ...",
       "url": "https://www.youtube.com/watch?v=fQYRCMu2eAk"
-    },
-    {
-      "date": "",
-      "title": "Blue Wave Sweeps Midterms, Democrats Control Both Houses / Why Did the GOP Suffer a Crushing Defe...",
-      "url": "https://www.youtube.com/watch?v=PDSwqEyWyJI"
     }
   ]
 }
