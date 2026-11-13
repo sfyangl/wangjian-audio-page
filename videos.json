@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-13T06:40:53.254296+00:00",
+  "updated_at": "2026-11-13T17:10:56.611713+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-13",
+      "title": "中国经济向内坍塌 普通人的生活被暴击/英伟达变故 中国230亿AI项目悬了/万斯考虑放弃下届总统选举/王剑每日观察/20261113",
+      "url": "https://www.youtube.com/watch?v=7GzhQ9ebDro"
+    },
     {
       "date": "2026-11-12",
       "title": "黄仁勋下台引发川普政府内斗/黄乐干的大事与黄仁勋的悔恨/中国主播跑到孟加拉做什么？/王剑每日观察/20261112",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "News Tea House: The Fall of the Chinese Middle Class, Why Is It Getting Harder to Bounce Back? / ...",
       "url": "https://www.youtube.com/watch?v=UqmT48XsDLA"
-    },
-    {
-      "date": "",
-      "title": "The 21st clarion call sounds: How will Xi Jinping position the Standing Committee? / Trump's chie...",
-      "url": "https://www.youtube.com/watch?v=k6HtGIWUvv8"
     }
   ]
 }
