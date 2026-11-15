@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-14T22:21:21.340321+00:00",
+  "updated_at": "2026-11-15T06:25:29.768470+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "",
+      "title": "Members-Only Livestream / Wang Jian Daily Observation / 11/14/2026",
+      "url": "https://www.youtube.com/watch?v=NGnr6scHso0"
+    },
     {
       "date": "2026-11-14",
       "title": "新闻茶座：黄仁勋离开英伟达的阴谋和阳谋/王剑每日观察/20261114",
@@ -46,11 +51,6 @@
       "date": "2026-11-10",
       "title": "美国政府对黄乐查到什么？黄仁勋绯闻性质变了/习近平普京川普三方峰会还不确定/民调要求民主党快速行动/王剑每日观察/20261110",
       "url": "https://www.youtube.com/watch?v=1XWjjCqDOa8"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "中方对黄仁勋绯闻的怪异反应/美国众议院发起对战争部长弹劾/生娘不及养娘大？/王剑每日观察/20261109",
-      "url": "https://www.youtube.com/watch?v=0rghH16BJX8"
     }
   ]
 }
