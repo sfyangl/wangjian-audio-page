@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-17T03:50:40.610246+00:00",
+  "updated_at": "2026-11-17T15:57:24.549857+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-16",
+      "title": "中国经济陷入萧条 年轻人不接盘了/黄仁勋设\"战情室\"谋回锅/美国就业市场10大求职忠告/王剑每日观察/20261116",
+      "url": "https://www.youtube.com/watch?v=l4lEhUvdhdk"
+    },
     {
       "date": "",
       "title": "US Treasury Secretary Demands Nvidia Management Overhaul / Chinese AI Firms' Southeast Asian Comp...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "China Taxes $160 Billion on Offshore Trusts, Next Target: Temples / Lo Ta-yu’s Erratic Rants Dise...",
       "url": "https://www.youtube.com/watch?v=cLwft27oSRM"
-    },
-    {
-      "date": "2026-11-10",
-      "title": "黄仁勋绯闻爆料：黄乐转运中国24万颗英伟达芯片/中央经济工作会议的有戏吗？/海格赛斯暂时避开弹劾/王剑每日观察/20261110",
-      "url": "https://www.youtube.com/watch?v=O2tbCEUJoFA"
     }
   ]
 }
