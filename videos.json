@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-19T02:32:14.055605+00:00",
+  "updated_at": "2026-11-19T11:35:26.870484+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "",
+      "title": "The New York Times Exposé: Who Did Jensen Huang Sell Computing Power To? / Musk Starts Distancing...",
+      "url": "https://www.youtube.com/watch?v=hnkI-4mI0KY"
+    },
     {
       "date": "",
       "title": "Real Estate Crisis Spreads to Local Finance, Early Signs of China's Economic Great Depression / S...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "China's Economy Collapses Inward, Ordinary Lives Battered / Nvidia Turmoil Leaves 23 Billion AI P...",
       "url": "https://www.youtube.com/watch?v=7GzhQ9ebDro"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "黄仁勋下台引发川普政府内斗/黄乐干的大事与黄仁勋的悔恨/中国主播跑到孟加拉做什么？/王剑每日观察/20261112",
-      "url": "https://www.youtube.com/watch?v=oryZeAInrrg"
     }
   ]
 }
