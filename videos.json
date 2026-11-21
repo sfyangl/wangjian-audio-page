@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-21T10:57:54.164526+00:00",
+  "updated_at": "2026-11-21T19:12:31.903112+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-20",
+      "title": "新闻茶座：中国进入有秩序的混乱时代；全球股债金暴跌是金融危机吗？/王剑每日观察/20261120",
+      "url": "https://www.youtube.com/watch?v=kYKqtda2zJg"
+    },
     {
       "date": "",
       "title": "What’s Next for the Market After the U.S. Tech Stock Crash? / SEC Investigates Nvidia’s Accountin...",
@@ -46,11 +51,6 @@
       "date": "2026-11-16",
       "title": "中国经济陷入萧条 年轻人不接盘了/黄仁勋设\"战情室\"谋回锅/美国就业市场10大求职忠告/王剑每日观察/20261116",
       "url": "https://www.youtube.com/watch?v=l4lEhUvdhdk"
-    },
-    {
-      "date": "",
-      "title": "US Treasury Secretary Demands Nvidia Management Overhaul / Chinese AI Firms' Southeast Asian Comp...",
-      "url": "https://www.youtube.com/watch?v=xQ3MIZXwQVs"
     }
   ]
 }
