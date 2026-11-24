@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-24T02:11:38.904849+00:00",
+  "updated_at": "2026-11-24T13:39:17.464807+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-23",
+      "title": "川普一手操办黄仁勋回锅并酿成政治风暴/秦城监狱大规模扩建/中国1620万失能老能疏于照顾/澳洲稀土出货了！/王剑每日观察/20261123",
+      "url": "https://www.youtube.com/watch?v=qLhtdqNcTjI"
+    },
     {
       "date": "2026-11-23",
       "title": "英伟达宣布黄仁勋复职/美股强劲反弹英伟达暴涨28.2%/英伟达丑闻牵出了中国安全部和太子集团/中国三措施救股市/王剑每日观察/20261123",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "Is Chongqing Party Secretary Yuan Jiajun in trouble too? / Board rejects Jensen Huang's return; N...",
       "url": "https://www.youtube.com/watch?v=qYWmmPoyXG8"
-    },
-    {
-      "date": "",
-      "title": "China-US-Russia Trilateral Summit: A Modern-Day Yalta Conference? / Jensen Huang: I am willing to...",
-      "url": "https://www.youtube.com/watch?v=051W7yKIXds"
     }
   ]
 }
