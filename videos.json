@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-24T23:52:44.329868+00:00",
+  "updated_at": "2026-11-25T08:28:19.752838+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "",
+      "title": "The Most Severe Crisis in Chinese Society: The Path to Survival is Closing for Ordinary People / ...",
+      "url": "https://www.youtube.com/watch?v=pyIkAK8e4oM"
+    },
     {
       "date": "2026-11-24",
       "title": "上海书记陈吉宁突然落马 中共政坛大地震/解放军的和平病/欧盟大幅削减中国混动汽车配额/王剑每日观察/20261124",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "The New York Times Exposé: Who Did Jensen Huang Sell Computing Power To? / Musk Starts Distancing...",
       "url": "https://www.youtube.com/watch?v=hnkI-4mI0KY"
-    },
-    {
-      "date": "",
-      "title": "Real Estate Crisis Spreads to Local Finance, Early Signs of China's Economic Great Depression / S...",
-      "url": "https://www.youtube.com/watch?v=Er8rnItqNhI"
     }
   ]
 }
