@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-25T08:28:19.752838+00:00",
+  "updated_at": "2026-11-25T19:14:15.631433+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "2026-11-25",
+      "title": "上海市委书记陈吉宁到底为什么翻车？/川普关税卷土重来 中国加征20%/沈伯洋取消选前之夜造势活动/王剑每日观察/20261125",
+      "url": "https://www.youtube.com/watch?v=G2IWRmzM-ms"
+    },
     {
       "date": "",
       "title": "The Most Severe Crisis in Chinese Society: The Path to Survival is Closing for Ordinary People / ...",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "US-China-Russia Summit Begins, Trump Humiliates Himself / Jensen Huang Case Escalates, US Tighten...",
       "url": "https://www.youtube.com/watch?v=otdjc0pPWBY"
-    },
-    {
-      "date": "",
-      "title": "The New York Times Exposé: Who Did Jensen Huang Sell Computing Power To? / Musk Starts Distancing...",
-      "url": "https://www.youtube.com/watch?v=hnkI-4mI0KY"
     }
   ]
 }
