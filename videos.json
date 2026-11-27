@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-26T16:51:26.502136+00:00",
+  "updated_at": "2026-11-27T01:43:06.826961+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
+    {
+      "date": "",
+      "title": "Uncovering the Truth About China's AI Industry / Vanke Debt Facing Another Extension / Taiwan Inv...",
+      "url": "https://www.youtube.com/watch?v=BrLjJdvqKBw"
+    },
     {
       "date": "2026-11-25",
       "title": "中国危险时刻：出口与出海战略岌岌可危/川普关税战略的执着/台湾九合一选举依旧胶着/王剑每日观察/20261125",
@@ -46,11 +51,6 @@
       "date": "",
       "title": "China's A-shares plunge for 7 consecutive days, investors liquidated / U.S. federal government fa...",
       "url": "https://www.youtube.com/watch?v=jb3xODWxReo"
-    },
-    {
-      "date": "",
-      "title": "News Salon: The Failure of Family Education Is Shaking the Foundation of Chinese Marriage / US Co...",
-      "url": "https://www.youtube.com/watch?v=QJXnlHIXgZI"
     }
   ]
 }
