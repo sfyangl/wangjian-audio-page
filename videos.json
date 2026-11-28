@@ -1,10 +1,15 @@
 {
-  "updated_at": "2026-11-27T21:18:35.999317+00:00",
+  "updated_at": "2026-11-28T07:44:20.105260+00:00",
   "source_playlist": "最新：新闻直播",
   "items": [
     {
       "date": "2026-11-27",
-      "title": "总理李强开口国家队救市 A股应声涨4%/沈伯洋选举之夜直播52万观众在线/澳洲杨兰兰一身名牌地出庭应讯/王剑每日观察/20261127",
+      "title": "爆料：上海数据中心发现英伟达顶配芯片/中国明年经济怎样？听董明珠说！/美国黑五无惧通胀继续爆买/王剑每日观察/20261127",
+      "url": "https://www.youtube.com/watch?v=HdXqSxVToeg"
+    },
+    {
+      "date": "",
+      "title": "Premier Li Qiang's intervention by the national team to rescue the market sent A-shares surging 4...",
       "url": "https://www.youtube.com/watch?v=q9DEZC2nzMA"
     },
     {
@@ -46,11 +51,6 @@
       "date": "",
       "title": "NVIDIA Announces Jensen Huang’s Reinstatement / US Stocks Rebound Strongly, NVIDIA Soars 28.2% / ...",
       "url": "https://www.youtube.com/watch?v=zk5vCCh0oEw"
-    },
-    {
-      "date": "",
-      "title": "News Tea House: Is China Entering an Era of Ordered Chaos? Is the Global Collapse of Stocks, Bond...",
-      "url": "https://www.youtube.com/watch?v=kYKqtda2zJg"
     }
   ]
 }
